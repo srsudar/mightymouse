@@ -1,0 +1,11 @@
+# use glob syntax
+syntax: glob
+
+# ignore patterns
+.DS_Store
+.metadata/
+bin\
+gen\
+MightyMouse/bin
+MightyMouse/gen
+RemoteSystemsTempFiles

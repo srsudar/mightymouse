@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/top_row"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2">
+        
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            android:layout_height="fill_parent"
+            android:hapticFeedbackEnabled="true" />
+        
+        <Button
+            android:id="@+id/button_divide"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="@string/divide_by"
+            android:hapticFeedbackEnabled="true" />
+        <Button
+            android:id="@+id/button_times"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="@string/times"
+            android:hapticFeedbackEnabled="true" />
+        <Button
+            android:id="@+id/button_minus"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/minus"
+            android:hapticFeedbackEnabled="true" />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/all_except_top_row"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8">
+        
+        <LinearLayout
+            android:id="@+id/number_row_columns"
+            android:orientation="vertical"
+        	android:layout_height="fill_parent"
+        	android:layout_width="0dp"
+        	android:layout_weight=".75">
+        	
+		     <LinearLayout
+		        android:id="@+id/ten_key_7to9"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:orientation="horizontal" >
+	
+			    <Button
+			        android:id="@+id/button_seven"
+			        android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:hapticFeedbackEnabled="true"
+			        android:text="@string/seven" />
+			
+			    <Button
+			        android:id="@+id/button_eight"
+			        android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:hapticFeedbackEnabled="true"
+			        android:text="@string/eight" />
+			
+			    <Button
+			        android:id="@+id/button_nine"
+			        android:layout_width="0dp"
+			        android:hapticFeedbackEnabled="true"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:text="@string/nine" />
+		
+			</LinearLayout>
+			
+		    <LinearLayout
+		        android:id="@+id/ten_key_4to6"
+		        android:layout_width="fill_parent"
+		        android:layout_weight="1"
+		        android:layout_height="0dp"
+		        android:orientation="horizontal" >
+		
+			    <Button
+			        android:id="@+id/button_four"
+			        android:hapticFeedbackEnabled="true"
+			        android:layout_width="0dp"
+			        android:layout_weight="1"
+			        android:layout_height="fill_parent"
+			        android:layout_gravity="fill"
+			        android:text="@string/four" />
+		
+			    <Button
+			        android:id="@+id/button_five"
+			        android:hapticFeedbackEnabled="true"
+			        android:layout_weight="1"
+			        android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:layout_gravity="fill"
+			        android:text="@string/five" />
+		
+			    <Button
+			        android:id="@+id/button_six"
+			        android:layout_weight="1"
+			        android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:hapticFeedbackEnabled="true"
+			        android:layout_gravity="fill"
+			        android:text="@string/six" />
+		
+			</LinearLayout>
+			
+		    <LinearLayout
+		        android:id="@+id/ten_key_1to2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:orientation="horizontal" >
+		
+			    <Button
+			        android:id="@+id/button_one"
+			        android:hapticFeedbackEnabled="true"
+			        android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:layout_gravity="fill"
+			        android:layout_weight="1"
+			        android:text="@string/one" />
+		
+			    <Button
+			        android:id="@+id/button_two"
+			        android:layout_weight="1"
+			        android:hapticFeedbackEnabled="true"
+			        android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:layout_gravity="fill"
+			        android:text="@string/two" />
+		
+			    <Button
+			        android:id="@+id/button_three"
+			        android:layout_weight="1"
+			        android:hapticFeedbackEnabled="true"
+			        android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:layout_gravity="fill"
+			        android:text="@string/three" />
+		
+			</LinearLayout>
+			
+		    <LinearLayout
+		        android:id="@+id/ten_key_0toDecimal"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:orientation="horizontal" >
+		
+			    <Button
+			        android:id="@+id/button_zero"
+			        android:layout_width="0dp"
+			        android:hapticFeedbackEnabled="true"
+			        android:layout_height="fill_parent"
+			        android:layout_gravity="fill"
+			        android:layout_weight=".67"
+			        android:text="@string/zero" />
+			
+			    <Button
+			        android:id="@+id/button_decimal"
+			        android:layout_width="0dp"
+			        android:hapticFeedbackEnabled="true"
+			        android:layout_height="fill_parent"
+			        android:layout_gravity="fill"
+			        android:layout_weight=".33"
+			        android:text="@string/decimal" />
+		        
+		    </LinearLayout>       
+        
+		</LinearLayout>
+		
+        <LinearLayout
+            android:id="@+id/right_column"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".25">
+            
+            <Button
+                android:id="@+id/button_plus"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/plus"
+                android:hapticFeedbackEnabled="true" />
+            <Button
+                android:id="@+id/button_enter"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/enter"
+                android:hapticFeedbackEnabled="true" />
+            
+            
+            
+            
+        </LinearLayout>
+            
+        
+        
+    </LinearLayout>
+    
+
+
+
+
+</LinearLayout>

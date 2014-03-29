@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sending_file_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center" >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp" >
+        
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar"
+            android:layout_marginRight="5dp" />
+    
+	    <TextView
+	        android:id="@+id/sending_file_dialog_text"
+	        android:text="@string/sending_file_message"
+	        android:textSize="28sp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent" />	
+	        
+	</LinearLayout>
+        
+    <Button
+        android:id="@+id/cancel_file_send_button"
+        android:text="@string/cancel_file_send_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

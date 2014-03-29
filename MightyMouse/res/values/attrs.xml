@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="TrackPad">
+        <attr name="showText" format="boolean"/>
+    </declare-styleable>
+</resources>

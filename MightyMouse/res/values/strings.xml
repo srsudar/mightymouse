@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Mighty Mouse</string>
+
+    <!-- MouseAndKeyboardActivity -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Mighty Mouse.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+    <string name="up">Up</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="down">Down</string>
+    <string name="leftClick">Left Click</string>
+    <string name="rightClick">Right Click</string>
+    <string name="L">L</string>
+    <string name="R">R</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- FileListActivity -->
+    <string name="select_file">select a file to send</string>
+    <string name="title_saved_files">Saved Files</string>
+
+    <!-- SendFileAsyncTask -->
+    <string name="sent_file_successfully">File sent successfully.</string>
+    <string name="user_canceled_send">You canceled the send.</string>
+    <string name="exception_sending_file">Something went wrong, file not sent.</string>
+    <string name="sending_file_message">typing file...</string>
+    <string name="cancel_file_send_message">Cancel</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="file_list">Send a File</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="auto_send">Send Immediately</string>
+    <string name="ten_key">Ten Key</string>
+
+    <!-- TenKey -->
+    <string name="decimal">.</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ten_key">TenKeyActivity</string>
+    <string name="divide_by">/</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="enter">Enter</string>
+    <string name="times">*</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="delete">Del</string>
+    
+
+</resources>
