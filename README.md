@@ -12,7 +12,7 @@ for system admins.
 This code arose as a project for the CSE 550 Systems course at the University
 of Washington and is the work of Sam Sudar and Jaylen VanOrden.
 
-The code leaned heavily on the BlueTooth example projects in the Android Open
+The code leaned heavily on the Bluetooth example projects in the Android Open
 Source Project.
 
 ### Caveats!
